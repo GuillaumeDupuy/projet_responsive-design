@@ -1,0 +1,120 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.header__main {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#header__content {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#weather__col {
+    margin: 10px;
+    float: left;
+    width: 300px;
+
+    .weather {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.342857px;
+
+    & p1 {
+        list-style: none;
+        display: flex;
+        justify-content: left;
+        // float: right;
+        padding: 0;
+        margin: 0;
+        color: #003B5C;
+    }
+
+    & p2 {
+        color: rgba(93, 83, 79, 0.6);
+    }
+
+    & hr {
+        width: 100%;
+        background-color: rgba(227, 218, 204, 0.5);
+        border: 1px;
+    }
+    
+ }
+}
+
+#logo__col {
+    margin: 10px;
+    float: left;
+    width: 300px;
+}
+
+#menu__col {
+    margin: 10px;
+    float: left;
+    width: 300px;
+}
+
+
+
+.header__logo {
+    text-align: center;
+}
+
+.header__menu {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.342857px;
+    color: #003B5C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+
+    .nav__list {
+        list-style: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+
+    .nav__link {
+        color: blue;
+        text-decoration: none;
+        text-transform: uppercase; 
+    }
+
+    .nav__item {
+        margin: 0px 10px;
+        display: inline; 
+    }
+
+    .nav__logo {
+        height: 17px;
+        width: 17px;
+        left: 1197px;
+        top: 46px;
+        border-radius: 0px;
+    }
+}
+
+.footer__main{
+    background-color:rgba(231, 72, 50, 1);
+
+    & hr {
+        width: 1276px;
+        border: 1px solid rgba(227, 218, 204, 0.5);
+    }
+
+}

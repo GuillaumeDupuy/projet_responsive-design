@@ -1,0 +1,25 @@
+{
+    "name": "eval_responsivedesign",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile-sass": "sass --watch assets/sass/main.scss:assets/build/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GuillaumeDupuy/projet_responsive-design.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GuillaumeDupuy/projet_responsive-design/issues"
+    },
+    "homepage": "https://github.com/GuillaumeDupuy/projet_responsive-design#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "sass": "^1.32.13"
+    }
+}

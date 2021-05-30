@@ -16,12 +16,7 @@ body {
   text-align: center;
 }
 
-#weather__col {
-  margin: 10px;
-  float: left;
-  width: 300px;
-}
-#weather__col .weather {
+.weather {
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: 600;
@@ -30,32 +25,43 @@ body {
   /* identical to box height */
   letter-spacing: 0.342857px;
 }
-#weather__col .weather p1 {
+.weather img {
+  margin-right: 120px;
+}
+.weather p1 {
   list-style: none;
   display: flex;
   justify-content: left;
   padding: 0;
   margin: 0;
   color: #003B5C;
+  margin-left: 110px;
 }
-#weather__col .weather p2 {
+.weather p2 {
   color: rgba(93, 83, 79, 0.6);
 }
-#weather__col .weather hr {
+.weather hr {
   width: 100%;
   background-color: rgba(227, 218, 204, 0.5);
   border: 1px;
+  float: center;
+}
+
+#weather__col {
+  margin: 10px;
+  width: 300px;
+  float: left;
 }
 
 #logo__col {
   margin: 10px;
-  float: left;
   width: 300px;
+  float: left;
+  margin-left: 7%;
 }
 
 #menu__col {
   margin: 10px;
-  float: left;
   width: 300px;
 }
 
@@ -97,12 +103,199 @@ body {
   border-radius: 0px;
 }
 
+.categorie {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.342857px;
+  color: #003B5C;
+  margin-left: 4%;
+}
+.categorie a {
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+.article {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+}
+.article .article__lifestyle {
+  margin-right: 20%;
+}
+.article .article__auto {
+  margin-right: 20px;
+}
+.article .article__auto h4 {
+  width: 90%;
+}
+.article .article__texte__auto .btn__after__auto {
+  margin-left: 38%;
+}
+.article .article__theme__auto {
+  width: 57%;
+  background: white;
+  display: inline-flex;
+  margin-left: 15%;
+}
+.article .article__theme__auto a {
+  margin-left: 40%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 10px;
+}
+.article .article__theme__auto p {
+  margin-top: 0%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #5D534F;
+  text-decoration: none;
+  font-size: 10px;
+}
+.article .article__texte__auto h4 {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 400;
+}
+.article .article__texte__auto p {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #5D534F;
+}
+.article .article__theme__life {
+  width: 57%;
+  background: white;
+  display: inline-flex;
+  margin-left: 15%;
+}
+.article .article__theme__life a {
+  margin-left: 40%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 10px;
+}
+.article .article__theme__life p {
+  margin-top: 0%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #5D534F;
+  text-decoration: none;
+  font-size: 10px;
+}
+.article .article__texte {
+  width: 60%;
+  background: white;
+  display: block;
+}
+.article .article__texte__life h4 {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 400;
+}
+.article .article__texte__life p {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #5D534F;
+}
+.article .article__texte__life .btn__after__life {
+  margin-left: 38%;
+}
+
+.montre__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.auto__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.life__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.sports__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
 .footer__main {
   background-color: #e74832;
 }
+.footer__main img {
+  margin-left: 15px;
+}
+.footer__main .footer__logo {
+  margin-right: 25px;
+  margin-top: 75px;
+  float: right;
+}
 .footer__main hr {
   width: 1276px;
-  border: 1px solid rgba(227, 218, 204, 0.5);
+  border: 2px solid rgba(227, 218, 204, 0.5);
+  margin-top: 15px;
+}
+.footer__main p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.031px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,19 +1,1 @@
-@import "base/-fonts.scss";
-@import "helpers/-variables.scss";
-@import "helpers/mixins";
-@import "helpers/reset";
 @import "base/base";
-
-//themes
-@import "theme/buttons";
-@import "theme/spacing";
-@import "theme/title";
-
-//components
-@import "components/product-card";
-@import "components/product-slider";
-@import "components/products-grid";
-
-//layout 
-@import "layout/footer";
-@import "layout/header";

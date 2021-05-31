@@ -259,6 +259,35 @@ body {
   margin-top: 2%;
 }
 
+.theme__montre {
+  width: 57%;
+  background: white;
+  display: inline-flex;
+  margin-left: 15%;
+}
+
+.theme__montre a {
+  margin-left: 40%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.theme__montre p {
+  margin-top: 0%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #5D534F;
+  text-decoration: none;
+  font-size: 10px;
+}
+
 .auto {
   margin-top: 4%;
   width: 100%;
@@ -277,6 +306,35 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.theme__auto {
+  width: 57%;
+  background: white;
+  display: inline-flex;
+  margin-left: 15%;
+}
+
+.theme__auto a {
+  margin-left: 40%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.theme__auto p {
+  margin-top: 0%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #5D534F;
+  text-decoration: none;
+  font-size: 10px;
 }
 
 .life {
@@ -299,6 +357,35 @@ body {
   margin-right: auto;
 }
 
+.theme__life {
+  width: 57%;
+  background: white;
+  display: inline-flex;
+  margin-left: 15%;
+}
+
+.theme__life a {
+  margin-left: 40%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.theme__life p {
+  margin-top: 0%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #5D534F;
+  text-decoration: none;
+  font-size: 10px;
+}
+
 .sport {
   margin-top: 4%;
   width: 100%;
@@ -317,6 +404,35 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.theme__sport {
+  width: 57%;
+  background: white;
+  display: inline-flex;
+  margin-left: 15%;
+}
+
+.theme__sport a {
+  margin-left: 40%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #003B5C;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.theme__sport p {
+  margin-top: 0%;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #5D534F;
+  text-decoration: none;
+  font-size: 10px;
 }
 
 .newsletter {
@@ -436,6 +552,34 @@ body {
 }
 .footer__main .footer__logo {
   margin-left: 3%;
+}
+
+.btn_after {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 20px 15px;
+  letter-spacing: 2px;
+  background: none;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+@media (max-width: 768px) {
+  .btn_after {
+    font-size: 10px;
+  }
+}
+@media (max-width: 580px) {
+  .btn_after {
+    font-size: 8px;
+  }
+}
+.btn_after:hover {
+  transition: 0.3s all;
 }
 
 /*# sourceMappingURL=style.css.map */

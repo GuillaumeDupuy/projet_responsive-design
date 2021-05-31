@@ -24,11 +24,12 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     letter-spacing: 0.342857px;
 
     img {
         margin-right: 120px;
+        position: relative;
+        bottom: -22px;
     }
 
     & p1 {
@@ -74,6 +75,8 @@ body {
 
 .header__logo {
     text-align: center;
+    position: relative;
+    bottom: -12px;
 }
 
 .header__menu {
@@ -89,15 +92,26 @@ body {
     .nav__list {
         list-style: none;
         justify-content: center;
-        padding: 0;
-        margin: 0;
+        padding: 0px;
+        margin: 0px;
         text-align: right;
+        position: relative;
+        left: 750px;
+        bottom: 52px;
     }
 
     .nav__link {
-        color: blue;
         text-decoration: none;
-        text-transform: uppercase; 
+        text-transform: uppercase;
+        margin-left: 2%;
+        color: #003B5C;
+        font-family: HK Grotesk;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.342857px;
     }
 
     .nav__item {
@@ -120,7 +134,6 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.342857px;
     color: #003B5C;
@@ -129,6 +142,14 @@ body {
     & a {
         text-decoration: none;
         margin-left: 2%;
+        color: #003B5C;
+        font-family: HK Grotesk;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.342857px;
     }
 }
 
@@ -155,6 +176,16 @@ body {
     .article__texte__auto {
         .btn__after__auto {
             margin-left: 38%;
+            font-family: HK Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 0.398968px;
+            color: #E74832;
+            border: none;
+            background-color: white;
         }
     }
 
@@ -269,6 +300,16 @@ body {
     .article__texte__life {
         .btn__after__life {
             margin-left: 38%;
+            font-family: HK Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 0.398968px;
+            color: #E74832;
+            border: none;
+            background-color: white;
         }
     }
         
@@ -276,16 +317,46 @@ body {
 
 // GRID
 
+.box__centrer__item {
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(0, 59, 92);
+    position: absolute;
+    top: 146%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .watch {
     margin-top: 4%;
     width: 100%;
 }
 
 .watch_sous {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: rgba(93, 83, 79, 0.6);
+
     width: 330px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    .vertical-line{
+        border: 1px solid #E5DBD1;
+        display: inline-block;
+        height: 1px;
+        margin: 0 20px;
+    }
 }
 
 .montre__grid {
@@ -300,11 +371,22 @@ body {
     width: 57%;
     background: white;
     display: inline-flex;
-    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.montre__item h4 {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    color: #003B5C;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .theme__montre a {
-    margin-left: 40%;
     font-family: HK Grotesk;
     font-style: normal;
     font-weight: 600;
@@ -325,6 +407,43 @@ body {
     font-size: 10px;
 }
 
+.box__montre {
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    .effet1 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 58%;
+    }
+    
+    .effet2 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 72%;
+    }
+}
+
+.line {
+    position: relative;
+    height: 4px;
+    width: 600px;
+    top: 40px;
+    border-radius: 0px;
+    margin-right: 60%;
+}
+
+.line2 {
+    position: relative;
+    height: 4px;
+    width: 600px;
+    border-radius: 0px;
+    margin-left: 60%;
+    top: 25px;
+}
+
 .auto {
     margin-top: 4%;
     width: 100%;
@@ -339,21 +458,47 @@ body {
 }
 
 .auto_sous {
-    width: 330px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: rgba(93, 83, 79, 0.6);
+    
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    .vertical-line{
+        border: 1px solid #E5DBD1;
+        display: inline-block;
+        height: 1px;
+        margin: 0 20px;
+    }
 }
 
 .theme__auto {
     width: 57%;
     background: white;
     display: inline-flex;
-    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.auto__item h4 {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    color: #003B5C;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .theme__auto a {
-    margin-left: 40%;
     font-family: HK Grotesk;
     font-style: normal;
     font-weight: 600;
@@ -374,6 +519,25 @@ body {
     font-size: 10px;
 }
 
+.box__auto {
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    .effet1 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 58%;
+    }
+    
+    .effet2 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 72%;
+    }
+}
+
 .life {
     margin-top: 4%;
     width: 100%;
@@ -388,21 +552,47 @@ body {
 }
 
 .life_sous {
-    width: 330px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: rgba(93, 83, 79, 0.6);
+    
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    .vertical-line{
+        border: 1px solid #E5DBD1;
+        display: inline-block;
+        height: 1px;
+        margin: 0 20px;
+    }
 }
 
 .theme__life {
     width: 57%;
     background: white;
     display: inline-flex;
-    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.life__item h4 {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    color: #003B5C;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .theme__life a {
-    margin-left: 40%;
     font-family: HK Grotesk;
     font-style: normal;
     font-weight: 600;
@@ -423,6 +613,25 @@ body {
     font-size: 10px;
 }
 
+.box__life {
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    .effet1 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 58%;
+    }
+    
+    .effet2 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 72%;
+    }
+}
+
 .sport {
     margin-top: 4%;
     width: 100%;
@@ -437,21 +646,47 @@ body {
 }
 
 .sport_sous {
-    width: 330px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: rgba(93, 83, 79, 0.6);
+    
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    .vertical-line{
+        border: 1px solid #E5DBD1;
+        display: inline-block;
+        height: 1px;
+        margin: 0 20px;
+    }
 }
 
 .theme__sport {
     width: 57%;
     background: white;
     display: inline-flex;
-    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.sports__item h4 {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    color: #003B5C;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .theme__sport a {
-    margin-left: 40%;
     font-family: HK Grotesk;
     font-style: normal;
     font-weight: 600;
@@ -470,6 +705,55 @@ body {
     color: #5D534F;
     text-decoration: none;
     font-size: 10px;
+}
+
+.box__sport {
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    .effet1 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 58%;
+    }
+    
+    .effet2 {
+        position: absolute;
+        text-align: center;
+        left: 44%;
+        top: 72%;
+    }
+}
+
+.btn__after {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.398968px;
+    color: #E74832;
+    border: none;
+    background-color: white;
+    margin-left: -1%;
+}
+
+.btn__see {
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.398968px;
+    color: rgb(231, 72, 50);
+    border: none;
+    background-color: white;
+    position: relative;
+    left: 1370px;
+    bottom: -30px;
 }
 
 // NEWSLETTER
@@ -504,14 +788,25 @@ body {
         letter-spacing: -0.4px;
         color: #FFFFFF;
         position: absolute;
-        top: 75%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
     .box__newsletter {
-        position: relative;
-        text-align: center;
+        .rect1 {
+            position: absolute;
+            text-align: center;
+            left: 41%;
+            top: 58%;
+        }
+        
+        .rect2 {
+            position: absolute;
+            text-align: center;
+            left: 41%;
+            top: 59%;
+        }
     }
 
     .box__centrer {
@@ -523,10 +818,9 @@ body {
         text-align: center;
         letter-spacing: 0.499742px;
         color: #003B5C;
-
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 63%;
+        left: 49%;
         transform: translate(-50%, -50%);
     }
 }
@@ -535,11 +829,13 @@ body {
 
 .footer__main{
     background-color:rgba(231, 72, 50, 1);
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 
     & hr {
         width: 1400px;
         border: 2px solid rgba(227, 218, 204, 0.5);
-        margin-top: 15px;
     }
 
     & h4 {
@@ -564,22 +860,29 @@ body {
     }
     
     .footer__left {
-        margin-left: 3%;
-        margin-top: 2%;
+        left: 3%;
+        position: relative;
+        top: 15px;
+    }
+
+    .footer__right {
+        position: relative;
+        left: 89%;
+        bottom: 10px;
     }
 
     .footer__newsletter {
         position: relative;
-        text-align: center;
-        font-family: HK Grotesk;
+        font-family: "HK Grotesk";
         font-style: normal;
         font-weight: 600;
         font-size: 12px;
         line-height: 15px;
         text-align: center;
         letter-spacing: 0.398968px;
-        color: #FFFFFF;
-        margin-left: 40%;
+        color: white;
+        bottom: 393px;
+        left: 257px;
     }
       
     .texte_centrer {
@@ -591,54 +894,57 @@ body {
 
     .categories {
         display: block;
-        margin-left: 28%;
+        position: relative;
+        left: 449px;
+        bottom: 63px;
     }
 
     .about {
-        margin-left: 45%;
-    }
-
-    .footer__right {
-        margin-left: 89%;
+        position: relative;
+        bottom: 241px;
+        left: 678px;
     }
 
     .footer__reseau {
-        margin-left: 78%;
-        padding-left: 10%;
+        position: relative;
+        left: 1300px;
+        bottom: 522px;
     }
 
     .footer__logo {
-        margin-left: 3%;
+        left: 3%;
+        top: 55px;
+        position: relative;
     }
 
 }
 
 // BUTTON
 
-.btn_after {
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    padding: 20px 15px;
-    letter-spacing: 2px;
-    background: none;
-    border: none;
-    font-weight: 400;
-    cursor: pointer;
-    transition: 0.3s all;
-    @media(max-width: 768px) {
-        font-size: 10px;
-    }
-    @media(max-width: 580px) {
-        font-size: 8px;
-    }
-    &:hover {
-        transition: 0.3s all;
-    }
+// .btn_after {
+//     display: inline-block;
+//     text-transform: uppercase;
+//     font-size: 20px;
+//     text-decoration: none;
+//     color: black;
+//     padding: 20px 15px;
+//     letter-spacing: 2px;
+//     background: none;
+//     border: none;
+//     font-weight: 400;
+//     cursor: pointer;
+//     transition: 0.3s all;
+//     @media(max-width: 768px) {
+//         font-size: 10px;
+//     }
+//     @media(max-width: 580px) {
+//         font-size: 8px;
+//     }
+//     &:hover {
+//         transition: 0.3s all;
+//     }
     
-}
+// }
 
 // BURGER MENU 
 // .burger__menu {

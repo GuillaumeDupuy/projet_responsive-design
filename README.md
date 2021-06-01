@@ -6,6 +6,8 @@ Depot git du projet responsive design de DUPUY Guillaume B2A
 Malgré des modifications du CSS & HTML, l'affichage du footer est toujours bloquer.
 Reste à faire le responsive et le burger menu
 
+# Launch
+
 Les étapes pour lancer le projet :
 
 1. Cloner le projet 

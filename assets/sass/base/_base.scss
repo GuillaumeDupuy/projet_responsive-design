@@ -1,5 +1,6 @@
 body {
     font-family: 'Libre Baskerville', serif;
+    padding: 0;
 }
 
 // HEADER
@@ -163,10 +164,57 @@ body {
 
     .article__lifestyle {
         margin-right: 20%;
+        .box__article2 {
+            .rect4 {
+                position: absolute;
+                text-align: center;
+                width: 400px;
+                left: 60%;
+                top: 36%;
+            }
+        }
+        
+        .box__centrer__article2 {
+            font-family: HK Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15.031px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.499742px;
+            color: #003B5C;
+            position: relative;
+            top: 63%;
+            left: 22%;
+            transform: translate(-50%, -50%);
+        }
     }
 
     .article__auto {
         margin-right: 20px;
+        .box__article1 {
+            .rect3 {
+                position: absolute;
+                text-align: center;
+                left: 8%;
+                top: 53%;
+            }
+        }
+        
+        .box__centrer__article1 {
+            font-family: HK Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15.031px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.499742px;
+            color: #003B5C;
+            position: relative;
+            top: 63%;
+            left: 22%;
+            transform: translate(-50%, -50%);
+        }
     }
 
     .article__auto h4 {
@@ -174,6 +222,10 @@ body {
     }
 
     .article__texte__auto {
+        top: -41px;
+        right: 36px;
+        position: relative;
+        margin-left: 15%;
         .btn__after__auto {
             margin-left: 38%;
             font-family: HK Grotesk;
@@ -191,9 +243,8 @@ body {
 
     .article__theme__auto {
         width: 57%;
-        background: white;
         display: inline-flex;
-        margin-left: 15%;
+        margin-left: 40%;
     }
 
     .article__theme__auto a {
@@ -205,6 +256,8 @@ body {
         color: #003B5C;
         text-decoration: none;
         font-size: 10px;
+        position: relative;
+        top: -12px;
     }
 
     .article__theme__auto p {
@@ -216,6 +269,9 @@ body {
         color: #5D534F;
         text-decoration: none;
         font-size: 10px;
+        position: relative;
+        top: -12px;
+        left: 4px;
     }
 
     .article__texte__auto h4 {
@@ -242,7 +298,6 @@ body {
 
     .article__theme__life {
         width: 57%;
-        background: white;
         display: inline-flex;
         margin-left: 15%;
     }
@@ -256,6 +311,9 @@ body {
         color: #003B5C;
         text-decoration: none;
         font-size: 10px;
+        position: relative;
+        top: -12px;
+        left: 72px;
     }
 
     .article__theme__life p {
@@ -267,6 +325,9 @@ body {
         color: #5D534F;
         text-decoration: none;
         font-size: 10px;
+        position: relative;
+        top: -12px;
+        left: 75px;
     }
 
     .article__texte {
@@ -298,6 +359,10 @@ body {
     }
 
     .article__texte__life {
+        top: -66px;
+        right: 36px;
+        position: relative;
+        margin-left: 15%;
         .btn__after__life {
             margin-left: 38%;
             font-family: HK Grotesk;
@@ -430,7 +495,7 @@ body {
     position: relative;
     height: 4px;
     width: 600px;
-    top: 40px;
+    top: 31px;
     border-radius: 0px;
     margin-right: 60%;
 }
@@ -441,7 +506,7 @@ body {
     width: 600px;
     border-radius: 0px;
     margin-left: 60%;
-    top: 25px;
+    top: 15px;
 }
 
 .auto {
@@ -860,15 +925,15 @@ body {
     }
     
     .footer__left {
-        left: 3%;
+        margin-left: 3%;
         position: relative;
         top: 15px;
     }
 
     .footer__right {
         position: relative;
-        left: 89%;
         bottom: 10px;
+        margin-left: 89%;
     }
 
     .footer__newsletter {
@@ -953,10 +1018,10 @@ body {
 //     position: relative;
 //     justify-content: space-between;
 //     display: none;
-//     /* display: flex;
+//     display: flex;
 //     justify-content: space-evenly;
 //     align-items: center;
-//     flex-wrap: wrap; */
+//     flex-wrap: wrap; 
 // }
 
 // .burger__menu .line {
